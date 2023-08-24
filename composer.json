@@ -1,0 +1,28 @@
+{
+    "name": "tahericreate/siterootexport-bundle",
+    "type": "contao-bundle",
+    "license": "LGPL-3.0-or-later",
+    "description": "Export all pages of a siteroot.",
+    "keywords": [
+		"contao",
+		"export",
+		"sitestructure",
+		"excel"
+	],    
+	"version": "dev-main",
+    "require": {
+        "php": "^7.4 || ^8.2",
+        "contao/core-bundle": "^4.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tahericreate\\SiterootexportBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "contao-manager-plugin": "Tahericreate\\SiterootexportBundle\\ContaoManager\\Plugin"
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
